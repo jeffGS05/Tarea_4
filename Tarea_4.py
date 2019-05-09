@@ -12,13 +12,13 @@ hoja_calculo = [['carlos', 'juan', 'luis'],
 # La multiplicación
 
 import math
-nombre,cvalor,jvalor,lvalor=hoja_calculo
 calculo_dic = {'suma':lambda a,b,c: a+b, 'resta':lambda a,b,c: a-b,'promedio': lambda a: max(), 'multi': lambda a,b,c: a*b*c, 'Impuesto': lambda a: a*1.2,}
 
 # Parte 2
 # Obtenga utilizando el diccionario de funciones:
 
 #1. El promedio de la cantidad miles de colones en débito: cuánto tienen en promedio todas las personas.
+nombre,cvalor,jvalor,lvalor=hoja_calculo
 
 print("El promedio de la cantidad miles de colones en débito es : " + str(calculo_dic['suma'](cvalor[0],jvalor[0],lvalor[0])))
 El promedio de la cantidad miles de colones en débito es : 12.024000000000001
