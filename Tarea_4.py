@@ -2,22 +2,6 @@ hoja_calculo = [['carlos', 'juan', 'luis'],
  [5.454, 0.554, 0.954],
  [6.57, 9.57, 7.57],
  [3.64, 4.64, 1.64],]
-
-def transpuesta(hoja_calculo):
-    return [list(i) for i in zip(*hoja_calculo)]
-
-b = transpuesta(hoja_calculo)
-# sea b la tabla resultante luego de aplicar transpuesta
-b = [['carlos', 'juan', 'luis'],
- [54.54, 5.54, 9.54],
- [6.57, 9.57, 7.57],
- [3.64, 4.64, 1.64]]
-
-b[1] = list(map(lambda x: x/10, b[1]))
-b = [['carlos', 'juan', 'luis'],
- [5.454, 0.554, 0.954],
- [6.57, 9.57, 7.57],
- [3.64, 4.64, 1.64]]
 # Parte 1
 # Contruya un diccionario de funciones matematicas (utilizando funciones lambda) entre todos los números de la lista tales como:
 #
